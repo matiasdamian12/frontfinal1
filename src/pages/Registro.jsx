@@ -8,7 +8,7 @@ const Registro = () => {
 
     //api de la database
 //const URL = 'http://localhost:3001/crear';
-const URL = 'https://backfinal-production-1871.up.railway.app/datos';
+const URL = 'https://backfinal-production-1871.up.railway.app/crear';
 
 
 
