@@ -1,3 +1,12 @@
+Mi nombre es Matias Di Domenico,el proyecto es realizado el Front con react y el Back con railway con su
+correspondiente base de datos en Mongodb Atlas.
+La pagia tiene 5 sitios navegables:
+-Home
+-Registro (realiza un insert de datos y los guarda en la Api)
+-Api (Guarda los datos insertados del registro)
+-About
+-Seguros
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
