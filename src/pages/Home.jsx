@@ -1,16 +1,19 @@
 import React from "react";
-
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-
+import Seguro from '../assets/Seguro.jpg'
+import seguroauto from '../assets/seguroauto.png'
+import segurostecnologia from '../assets/segurostecnologia.jpg'
 
 const Home = () => {
 	return (
-		<div className="section m-5">
+		<div className="section">
 			<h2>Home Page</h2>
 			
+			<div className="row my-3 justify-content-evenly">
+			
 			<Card style={{ width: "18rem" }}>
-				<Card.Img variant="top" src="{require('../img/seguro.jpg)}" />
+				<Card.Img variant="top" src={Seguro} height="250" className="my-2 rounded" />
 				<Card.Body>
 					<Card.Title>Seguro de hogar</Card.Title>
 					<Card.Text>
@@ -21,7 +24,7 @@ const Home = () => {
 			</Card>
 
             <Card style={{ width: "18rem" }}>
-				<Card.Img variant="top" src="{require('../img/seguroauto.png)}" />
+				<Card.Img variant="top" src={seguroauto} height="250" className="my-2 rounded" />
 				<Card.Body>
 					<Card.Title>Seguro de auto</Card.Title>
 					<Card.Text>
@@ -32,7 +35,7 @@ const Home = () => {
 			</Card>
 
             <Card style={{ width: "18rem" }}>
-				<Card.Img variant="top" src="{require('../img/segurotecnologia.jpg)}" />
+				<Card.Img variant="top" src={segurostecnologia} height="250" className="my-2 rounded" />
 				<Card.Body>
 					<Card.Title>Seguro de tecnologia</Card.Title>
 					<Card.Text>
@@ -41,6 +44,7 @@ const Home = () => {
                     <Button variant="primary">Comprar</Button>
 				</Card.Body>
 			</Card>
+			</div>
 		</div>
 	)
 }

@@ -14,13 +14,15 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Routes>
+      <Routes> 
+        <Route path='/' element={<Home />} />
         <Route path='/Home' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/api' element={<Api />} />
         <Route path='/Seguros' element={<Seguros />} />
         <Route path='/registro' element={<Registro />} />
         <Route path='*' element={<Error />} />
+    
       </Routes>
     </BrowserRouter>
   );
