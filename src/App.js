@@ -7,7 +7,7 @@ import Seguros from "./pages/Seguros";
 import Registro from "./pages/Registro";
 import Navbar from "./componentes/navbar";
 
-//import Layout from "./componentes/layout";
+
 
 
 function App() {
