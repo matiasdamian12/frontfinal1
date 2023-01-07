@@ -17,10 +17,10 @@ function App() {
       <Routes> 
         <Route path='/' element={<Home />} />
         <Route path='/Home' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/api' element={<Api />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Api' element={<Api />} />
         <Route path='/Seguros' element={<Seguros />} />
-        <Route path='/registro' element={<Registro />} />
+        <Route path='/Registro' element={<Registro />} />
         <Route path='*' element={<Error />} />
     
       </Routes>
