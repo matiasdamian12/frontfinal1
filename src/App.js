@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,7 +12,7 @@ import Navbar from "./componentes/navbar";
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="App">
       <Navbar />
       <Routes> 
         <Route path='/' element={<Home />} />
@@ -24,7 +24,7 @@ function App() {
         <Route path='*' element={<Error />} />
     
       </Routes>
-    </BrowserRouter>
+    </div>
   );
 }
 
