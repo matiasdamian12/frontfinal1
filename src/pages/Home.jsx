@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Seguro from '../assets/Seguro.jpg'
-import seguroauto from '../assets/seguroauto.png'
-import segurostecnologia from '../assets/segurostecnologia.jpg'
+import Seguro from "../assets/Seguro.jpg"
+import seguroauto from "../assets/seguroauto.png"
+import segurostecnologia from "../assets/segurostecnologia.jpg"
 
 const Home = () => {
 	return (

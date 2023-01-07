@@ -1,5 +1,5 @@
 import React from 'react'
-import Seguro from "../assets/Seguro.jpg"
+import Fondoseguros from "../assets/Fondoseguros.jpg"
 
 const Seguros = () => {
     return (
@@ -8,7 +8,7 @@ const Seguros = () => {
         <h2>
         Seguros Page
         </h2> 
-        <img  className="justify-content-evenly" src={Seguro} alt='fondoseguro' />
+        <img  className="justify-content-evenly" src={Fondoseguros} alt='fondoseguro' />
     
     </div>
     )
