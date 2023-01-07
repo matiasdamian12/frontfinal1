@@ -8,7 +8,7 @@ Frontend: React.js - Jsx - React Bootstrap.
 Backend: Node.js - Express.js - javascript - Mongodb
 
 El backend se encuentran en línea en rialway:
-backfinal-production-1871.up.railway.app
+https://backfinal-production-1871.up.railway.app
 
 El deploy está realizado en netlify:
 https://earnest-pothos-0b621b.netlify.app/Home
