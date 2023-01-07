@@ -1,3 +1,21 @@
+Mí nombre es Matías Di Domenico, este es mí proyecto 
+
+Descripción del proyecto:
+ Es una página web de ventas de seguros la misma contiene 5 páginas navegables que inserta y envía datos con un formulario de registro, los datos se dirigen a una base de datos creada en mongodb,
+
+Tecnologías usadas:
+Frontend: React.js - Jsx - React Bootstrap.
+Backend: Node.js - Express.js - javascript - Mongodb
+
+El backend se encuentran en línea en rialway:
+backfinal-production-1871.up.railway.app
+
+El deploy está realizado en netlify:
+https://earnest-pothos-0b621b.netlify.app/Home
+
+
+--------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
